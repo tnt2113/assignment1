@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Assignment 1" />
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <!-- Create a div with an id of "top-div"-->
+	<div id = "top-div">
+  
+    <!-- Create an unordered list of 4 elements.  
+      Assign the first elements an id of "first-li" 
+      Assign the second and third elements a class of "middle"  
+  -->
+    
+
+      <ul>
+        <li id = "first-li">One</li>
+        <li class = "middle">Two</li>
+		<li class = "middle">Three</li>
+        <li>Four</li>
+      </ul>
+  
+  
+    <!-- Close "top-div" and create a second div "main-div" -->
+	</div>
+	
+	<div id = "main-div">
+  
+    <!-- Create an svg element with these settings:
+        - width attribute of 400
+        - height attribute of 200
+        - id of "main-svg"
+        - class of "my-svgs"
+    -->
+	<svg width = "400" height = "200" id = "main-svg" class = "my-svgs">
+  
+  
+      <!-- Create four circle elements such that:
+        - Each circle has the class "point"
+        - Each circle has a different id
+        - Each circle has a different radius
+        - None of the circles overlap
+       -->
+      
+		<circle cx="10" cy="25" r="4" id = "circle-1" class = "point"></circle>
+		<circle cx="30" cy="25" r="6" id = "circle-2" class = "point"></circle>
+		<circle cx="50" cy="25" r="8" id = "circle-3" class = "point"></circle>
+		<circle cx="70" cy="25" r="10" id = "circle-4" class = "point"></circle>
+  
+      <!-- Close "main-svg" and "main-div" -->
+	 </svg> 
+	</div>
+  
+   <!-- Close "main-div" and create a third div "bottom-div" -->
+	<div id = "bottom-div">
+  
+    <!-- Create an svg element with these settings:
+        - width attribute of 200
+        - height attribute of 200
+        - id of "bottom-svg"
+        - class of "my-svgs"
+    -->
+    
+	<svg width = "200" height = "200" id = "bottom-svg" class = "my-svgs">
+  
+  <!-- Create a circle element with class "point" -->
+
+  <circle cx="100" cy="125" r="4" id = "circle-5" class = "point"></circle>
+  
+  <!-- Create two rectangle elements such that:
+        - Each rectangle has the class "my-rects"
+        - Each rectangle has a different id
+        - Each rectangle has a different width and height
+        - The rectangles don't overlap
+       -->
+     <rect x="5" y="25" width="8" height="34" id = "rect-1" class = "my-rects"></rect>
+	 <rect x="50" y="25" width="10" height="40" id = "rect-2" class = "my-rects"></rect>
+  
+  
+  
+      <!-- Draw a line that intersects both rectangles -->
+<rect x="0" y="40" width="70" height="1" id = "line-1" class = "my-rects"></rect>
+  
+  </svg> 
+  </div>
+    <!-- Write some HTML comments below this line -->
+    <!-- Here are some of my HTML comments -->
+    <!-- The line is coded as a skinny rectangle -->
+    
+</body>
+</html>
